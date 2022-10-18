@@ -1,0 +1,208 @@
+@charset "UTF-8";
+
+/* 共通部分
+------------------------------- */
+html {
+    font-size: 100%;
+}
+a {
+    text-decoration: none;
+}
+img {
+    max-width: 100%;
+}
+.wrapper {
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 0 4%;
+}
+
+/* header */
+header {
+    background-color: #1659C6;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 64px;
+}
+.inquiry {
+    display: inline-block;
+    background-color: orange;
+    border-radius: 5px;
+    padding: 5px 30px;
+    font-size: 16px;
+    font-weight: 700;
+}
+header a {
+    color: white;
+}
+h1 {
+    font-size: 20px;
+}
+
+/* home-contents */
+.home-contents {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 482px;
+    background-color: #1659C6;
+    border-top: 1px solid rgba(255, 255, 255, 0.5);
+    color: white;
+    font-size: 29px;
+    
+}
+.sub-title {
+    text-align: justify;
+	text-align-last: justify;
+	text-justify: inter-character;
+}
+.home-text h2 {
+    font-size:45px;
+    text-align: justify;
+	text-align-last: justify;
+	text-justify: inter-character;
+    margin-bottom: 28px;
+}
+.home-text {
+    width: 384px;
+    margin-right: 100px;
+}
+.contents {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 48px;
+}
+.inquiry2 {
+    font-size: 18px;
+    font-weight: 700;
+    color: white;
+    background-color: orange;
+    border-radius: 5px;
+    padding: 20px 90px;
+
+}
+
+.home-contents img {
+    width: 490px;
+    height: 300px;
+}
+
+/* main-contents */
+.main-contents {
+    text-align: center;
+}
+.main-contents h2 {
+    font-size: 40px;
+    font-weight: 700;
+    margin-top: 50px;
+    margin-bottom: 18px;
+}
+.main-contents p {
+    font-size: 24px;
+    font-weight: 700;
+}
+.main-contents img {
+    margin-top: 38px;
+}
+.back {
+    position: absolute;
+}
+.front {
+    position: relative;
+    top: 24px;
+    left: 24px;
+}
+/* contact */
+.contact {
+    text-align: center;
+    background-color: #EFEFEF;
+}
+
+.contact h2 {
+    font-size: 28px;
+    font-weight: 400;
+    margin-top: 17px;
+    margin-bottom: 18px;
+    padding-top: 71px;
+}
+.contact p {
+    margin-bottom: 57px;
+}
+table {
+    margin: 0 auto;
+}
+form th {
+    text-align: left;
+    font-weight: normal;
+    vertical-align: top;
+    width: 300px;
+}
+.need {
+    position: relative;
+}
+.need::after {
+    content: "必須";
+    display: inline-block;
+    position: absolute;
+    right: 50px;
+    background-color: #F99F48;
+    border: 1px solid #F99F48;
+    border-radius: 2px;
+    color: white;
+    padding: 5px 6px;
+    font-size: 15px;
+}
+input {
+    border: 1px solid #333333;
+    border-radius: 4px;
+    width: 320px;
+    height: 47px;
+    margin-bottom: 20px;
+}
+textarea {
+    border: 1px solid #333333;
+    border-radius: 4px;
+    resize: none;
+    width: 320px;
+    height: 160px;
+}
+button {
+    background-color: #F99F48;
+    border: 2px solid #F99F48;
+    border-radius: 4px;
+    color: white;
+    padding: 8px 76px;
+    margin-top: 30px;
+    margin-bottom: 72px;
+}
+
+footer {
+    background-color: #222222;
+    color: white;
+    height: 375px;
+    display: flex;
+    justify-content: center;
+}
+
+footer h2 {
+    margin-top: 64px;
+    margin-right: 80px
+}
+.link-title {
+    display: flex;
+    flex-direction: column;
+    margin-top: 64px;
+    margin-right: 80px;
+    font-weight: 700;
+}
+.link-title a {
+    color: white;
+    text-decoration: underline;
+    margin-top: 30px;
+    font-weight: 500;
+}
+footer p {
+    margin-top: 300px;
+    font-size: 14px;
+}
